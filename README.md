@@ -21,7 +21,6 @@ If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
-
 ## User community
 
 The vibrant community of **al-folio** users is growing!
@@ -170,7 +169,6 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
 
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
-
 
 ### Installation
 

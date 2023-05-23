@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Milstones
+permalink: /milstones/
+description: Important moments of our lives. From Toronto ON 🚂 to London ON 🚗 to Vancouver BC ⛵.
 nav: true
 nav_order: 2
 display_categories: [work, fun]

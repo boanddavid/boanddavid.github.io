@@ -354,7 +354,7 @@ Here’s the code for the last row of images above:</p>
   function progressBarSetup() {
     if ("max" in document.createElement("progress")) {
       initializeProgressElement();
-      $(document).on("scroll", function() {
+      $(document).on("scroll", function () {
         progressBar.attr({ value: getCurrentScrollPosition() });
       });
       $(window).on("resize", initializeProgressElement);
@@ -377,7 +377,8 @@ Here’s the code for the last row of images above:</p>
     let navbarHeight = $("#navbar").outerHeight(true);
     $("body").css({ "padding-top": navbarHeight });
     $("progress-container").css({ "padding-top": navbarHeight });
-    progressBar.css({ top: navbarHeight });
+    // progressBar.css({ top: navbarHeight });
+    progressBar.css({ top: 0 });
     progressBar.attr({
       max: getDistanceToScroll(),
       value: getCurrentScrollPosition(),
@@ -400,6 +401,5 @@ Here’s the code for the last row of images above:</p>
     return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
   }
 </script>
-
   </body>
 </html>

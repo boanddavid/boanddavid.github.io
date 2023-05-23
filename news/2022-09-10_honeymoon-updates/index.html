@@ -349,7 +349,7 @@ Simply add <code class="language-plaintext highlighter-rouge">data-zoomable</cod
   function progressBarSetup() {
     if ("max" in document.createElement("progress")) {
       initializeProgressElement();
-      $(document).on("scroll", function() {
+      $(document).on("scroll", function () {
         progressBar.attr({ value: getCurrentScrollPosition() });
       });
       $(window).on("resize", initializeProgressElement);
@@ -372,7 +372,8 @@ Simply add <code class="language-plaintext highlighter-rouge">data-zoomable</cod
     let navbarHeight = $("#navbar").outerHeight(true);
     $("body").css({ "padding-top": navbarHeight });
     $("progress-container").css({ "padding-top": navbarHeight });
-    progressBar.css({ top: navbarHeight });
+    // progressBar.css({ top: navbarHeight });
+    progressBar.css({ top: 0 });
     progressBar.attr({
       max: getDistanceToScroll(),
       value: getCurrentScrollPosition(),
@@ -395,6 +396,5 @@ Simply add <code class="language-plaintext highlighter-rouge">data-zoomable</cod
     return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
   }
 </script>
-
   </body>
 </html>
